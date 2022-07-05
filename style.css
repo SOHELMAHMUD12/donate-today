@@ -6,6 +6,14 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 /* banner start */
 #banner{
     background-image: url("./images/UN0641828.jpg");
@@ -44,6 +52,25 @@ body{
 }
 
 /* banner end */
+
+/* start Donate Today  */
+.donate-container{
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.donate-container h1{
+    font-size: 45px;
+}
+
+.donate-container p{
+    Width:691px;
+    margin: 0 auto;
+}
+
+/* end Donate Today  */
+
+/* start footer */
 footer{
     width: 100%;
     height: 170px;
@@ -61,3 +88,4 @@ footer p{
     color: #D9DBE1;
     margin-bottom: 41px;
 }
+/* end footer  */
