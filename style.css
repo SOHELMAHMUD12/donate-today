@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* banner start */
+#banner{
+    background-image: url("./images/UN0641828.jpg");
+    background-size:100% 100%; 
+    height:600px; 
+    background-repeat:no-repeat centre;
+}
+
+.banner1{
+    padding:175px 0;
+}
+#banner h1 {
+    text-align: center;
+    font-weight: 700;
+    color: ghostwhite;
+    font-size: 60px;
+    /* margin-top: 175px; */
+}
+#banner p{
+    text-align: center;
+    color:whitesmoke;
+
+}
+.donate-btn{
+    background-color: rgba(255, 89, 89, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-btn{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* banner end */
+footer{
+    width: 100%;
+    height: 170px;
+   background-color: black;
+   text-align: center;
+  
+}
+
+footer h1{
+    color: rgba(255, 89, 89, 1);
+    padding-top: 44px;
+    
+}
+footer p{
+    color: #D9DBE1;
+    margin-bottom: 41px;
+}
