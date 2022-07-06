@@ -11,7 +11,7 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    
 }
 
 
@@ -133,15 +133,62 @@ body{
 
 /* start depends donate-container */
 
+.donation-container{
+    margin-top: 60px;
+}
 .depends-donation{
     display: flex;
-    text-align:start;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.our-donation{
+    margin-left: 30px;
+}
+
+.donation-pic img{
+    width: 456px;
+    height: 477px;
+    margin-right: 30px;
+}
+.our-donation h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+   
+    
+}
+.our-donation p{
+    width: 482px;
+    text-align: justify;
+}
+.donation2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.donation2 p{
+    width: 482px;
+    text-align: justify;
 
 }
 
-.depends-donation img{
-    width: 80%;
+.donation2 h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
 }
+.donation2 img{
+    width:456px ;
+    height: 477px;
+    margin-left: 40px;
+    
+}
+.donation2-text{
+  margin-right:40px;
+}
+
 /* end depends donate-container */
 
 
@@ -153,57 +200,42 @@ body{
     height: 150px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 40px;
-  
+    margin-top: 40px; 
 }
-
-/* .my-updates1{
-   margin: 20px 40px;
-   text-align: center;
-} */
-
 .email-filed{
-   margin: 76px 0;
+   margin: 65px 0 0 0;
    padding: 10px;
    border: 0;
+   margin-right: -5px;
    background: #D9D9D9;
    border-radius: 5px 0px 0px 5px;
    
 }
 .button-field{
     background-color: rgba(255, 89, 89, 1);
-    padding: 10px 20px;
+    padding:10px 20px;
     border-radius: 5px;
-    border: 0;
     color: white;
     text-align: center;
+    text-decoration: none;
     cursor: pointer;
     margin-left: 0;
+    border: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
 /* end my get updates */
 
 /* strat founder */
-.founder{
+.founder-text{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     
 }
-
-.our-donation h1{
-    font-size: 40px;
-    font-weight: 400;
-}
 .founder h1{
     font-size: 30px;
-    
 }
-.founder img{
- width: 100%;
-}
-
 /* end founder */
 
 /* start footer */
