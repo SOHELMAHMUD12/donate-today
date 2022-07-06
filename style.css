@@ -67,8 +67,50 @@ body{
     Width:691px;
     margin: 0 auto;
 }
+.donate-tk{
+    display:flex;
+    justify-content: space-around;
+    
+}
 
 /* end Donate Today  */
+
+/* start donate-plan */
+
+.donate-plan{
+    display: flex;
+    justify-content: space-around;
+}
+.donate-plan1{
+   
+    width: 360px;
+    height: 352px;  
+    padding: 30px;
+    text-align: justify;
+    border: 1px solid red;
+    background-color:gray;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* end donate-plan */
+
+/* start get my updates */
+
+.my-updates{
+    background: aqua;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    background-position: center;
+}
+
+.my-updates1{
+    text-align: center;
+}
+
+/* end my get updates */
+
 
 /* start footer */
 footer{
