@@ -130,13 +130,18 @@ body{
 
 /* end donate-plan */
 
-/* start depends .donate-container */
+/* start depends donate-container */
 
 .depends-donation{
-    
+    display: flex;
+    text-align:start;
+
 }
 
-/* end depends .donate-container */
+.depends-donation img{
+    width: 80%;
+}
+/* end depends donate-container */
 
 
 /* start get my updates */
@@ -177,6 +182,17 @@ body{
     border-top-left-radius: 0;
 }
 /* end my get updates */
+
+/* strat founder */
+.founder{
+    display: flex;
+    
+}
+.founder img{
+    width: ;
+}
+
+/* end founder */
 
 /* start footer */
 footer{
