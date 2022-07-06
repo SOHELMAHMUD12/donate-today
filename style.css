@@ -70,7 +70,22 @@ body{
 .donate-tk{
     display:flex;
     justify-content: space-around;
-    
+    padding: 40px;    
+    text-align: center;
+}
+
+.donate-tk1{
+    width: 135px;
+    background-color:#FAFAFA; 
+    padding: 30px 24px;
+}
+.donate-tk2{
+    border: 2px solid red;
+    background-color:#FFEEEE;
+    padding:30px ;
+}
+.red-color{
+    color: red;
 }
 
 /* end Donate Today  */
@@ -80,17 +95,34 @@ body{
 .donate-plan{
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
+    
 }
 .donate-plan1{
    
-    width: 360px;
-    height: 352px;  
+    width: 320px;
     padding: 30px;
     text-align: justify;
-    border: 1px solid red;
-    background-color:gray;
     border-radius: 10px;
-    text-align: left;
+  
+    
+}
+
+.food{
+    background-color:rgba(117, 200, 209, 0.1);
+   
+}
+.shelter{
+    background-color:rgba(255, 89, 89, 0.1)
+}
+
+.education{
+    background-color:rgba(255, 244, 214, 1)
+
+}
+.donate-plan1 p{
+    width: 315px;
+    margin-top: 20px;
 }
 
 /* end donate-plan */
@@ -102,11 +134,11 @@ body{
     width: 60%;
     height: 200px;
     text-align: center;
-    background-position: center;
+    
 }
 
 .my-updates1{
-    text-align: center;
+    
 }
 
 /* end my get updates */
