@@ -11,6 +11,7 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -186,10 +187,21 @@ body{
 /* strat founder */
 .founder{
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.our-donation h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.founder h1{
+    font-size: 30px;
     
 }
 .founder img{
-    width: ;
+ width: 100%;
 }
 
 /* end founder */
